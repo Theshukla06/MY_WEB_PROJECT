@@ -9,23 +9,33 @@
 }
 nav{
     width: 100%;
-    height: 60px;
+    height: 30px;
     background-color: rgba(5, 85, 204, 0.698);
     line-height: 75px;
     padding: 0px 50px;
 } 
 .navbar{
-    overflow: hidden;
-}
-.navbar a{
+    
     float: right;
-    display: block;
-    text-align: center;
-    padding: 20px;
-    color: red;
-    text-decoration: none;
+    margin-right: 120px;
     margin-top: 50px;
+    overflow: hidden;
+    
+    /* border: 1px solid; */
 }
+.navbar li{
+    display: inline;
+    padding: 20px;
+    
+}
+.navbar li a{
+    color: red;
+    font-weight: bold;
+}
+.navbar ul li{
+    color: var(--color-primary);
+}
+
 .img-1{
     background: green;
 }
@@ -33,7 +43,7 @@ nav{
     width: 250px;
     height: 65px;
     float: left;
-    margin-top: 80px;
+    margin-top: 45px;
     margin-left: 40px;
 }
 
@@ -47,23 +57,74 @@ position: relative;
      width: 100%;
 }
   
-
 .abs{
     position: absolute;
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
+    
 }
 .header-flex p{
     color: white;
+    margin-right: 110px;
+
+    
+}
+.call_logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.mail_logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+
+}
+.Addmision_logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+
 }
 
+/* float: right; */
+/* height: 10px;
+display: block; 
+text-align: center;
+padding: 20px;
+color: red;
+text-decoration: none;
+margin-top: 20px; */
 
-/* nav .img{
-    float: left;
-    color:white;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-} */
+
+/* Giriraj changes here */
+
+
+
+.aboutus-link{
+    display:block;
+}
+.drop_menu{
+    display : none;
+}
+
+ul .aboutus-link:hover .drop_menu{
+    display:block;
+    position:absolute;
+    border:1px solid red;
+    top:126px;
+    width:18%;
+    
+    /* margin-top:-10px; */
+    
+}
+
+.drop_menu ul li a{
+    padding:0;
+    background:blue;
+    margin:0;
+
+}
