@@ -113,8 +113,8 @@ margin-top: 20px; */
 
 ul .aboutus-link:hover .drop_menu{
     display:block;
+    background-color: white;
     position:absolute;
-    border:1px solid red;
     top:126px;
     width:18%;
     
@@ -124,7 +124,8 @@ ul .aboutus-link:hover .drop_menu{
 
 .drop_menu ul li a{
     padding:0;
-    background:blue;
-    margin:0;
+    color: black;
+    background: white;
+    margin:-45px;
 
 }
